@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Antártic – Hotel de Luxo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>The Antártic</h1>
+    <nav>
+      <button onclick="scrollToSection('suites')">Suítes</button>
+      <button onclick="scrollToSection('cardapio')">Cardápio</button>
+      <button onclick="scrollToSection('reserva')">Reservas</button>
+      <button onclick="scrollToSection('contato')">Contato</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>O luxo congelado no tempo</h2>
+    <p>Descubra uma experiência única nas geleiras do conforto absoluto.</p>
+  </section>
+
+  <section id="suites">
+    <h2>Suítes Exclusivas</h2>
+    <p>Em breve: Aurora Master, Iceberg Royal, North Lux e mais...</p>
+  </section>
+
+  <section id="cardapio">
+    <h2>Cardápio Gourmet</h2>
+    <p>Em breve: Café da manhã, Almoço, Jantar, Drinks, Sobremesas...</p>
+  </section>
+
+  <section id="reserva">
+    <h2>Reserve sua estadia</h2>
+    <form>
+      <input type="text" placeholder="Nome completo" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <input type="date" placeholder="Data de entrada" required>
+      <input type="date" placeholder="Data de saída" required>
+      <button type="submit">Reservar Agora</button>
+    </form>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>WhatsApp: <a href="https://wa.me/5521997480420" target="_blank">+55 21 99748-0420</a></p>
+    <p>Instagram: @theantartichotel</p>
+  </section>
+
+  <footer>
+    <p>© 2025 The Antártic Hotel – Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
